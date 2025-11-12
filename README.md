@@ -32,35 +32,6 @@ loan_default_project/
 yaml
 Copy code
 
----
-
-## ⚙️ Setup Instructions
-
-### 1️⃣ Clone the Repository
-
-```bash
-git clone https://github.com/pmukta/loan_default_project.git
-cd loan_default_project
-2️⃣ Create and Activate a Virtual Environment
-bash
-Copy code
-python -m venv venv
-venv\Scripts\activate     # On Windows
-# OR
-source venv/bin/activate  # On Mac/Linux
-3️⃣ Install Dependencies
-bash
-Copy code
-pip install -r requirements.txt
-4️⃣ Train the Model (optional)
-bash
-Copy code
-python save_model.py
-5️⃣ Run the App
-bash
-Copy code
-streamlit run app.py
-
 Then open the local URL (e.g. http://localhost:8501) in your browser to use the app.
 
 📊 Sample Output
