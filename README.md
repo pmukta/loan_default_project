@@ -29,10 +29,43 @@ loan_default_project/
 ├── README.md # Documentation
 └── Loan_Default_Model_Report.pdf # Detailed project report
 
-yaml
-Copy code
 
-Then open the local URL (e.g. http://localhost:8501) in your browser to use the app.
+---
+
+## ⚙️ Setup Instructions
+
+### 1️⃣ Clone the Repository
+
+```bash
+git clone https://github.com/pmukta/loan_default_project.git
+cd loan_default_project
+
+###2️⃣ Create & Activate a Virtual Environment
+
+```bash
+
+python -m venv venv
+venv\Scripts\activate     # On Windows
+# OR
+source venv/bin/activate  # On Mac/Linux
+
+###3️⃣ Install Dependencies
+
+```bash
+
+pip install -r requirements.txt
+
+###4️⃣ Train the Model (Optional)
+
+```bash
+
+python save_model.py
+
+###5️⃣ Run the Application
+
+```bash
+
+streamlit run app.py
 
 Then open the local URL (e.g. http://localhost:8501
 ) in your browser to use the app.
@@ -75,8 +108,6 @@ Mukta Seerapu
 🔗 LinkedIn Profile: www.linkedin.com/in/mukta-puvvula-94861819b
 
 🪪 License 
-
-Licensed under the MIT License — you’re free to use and modify this project with credit.
 
 Licensed under the MIT License — you’re free to use and modify this project with credit.
 
