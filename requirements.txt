@@ -1,0 +1,11 @@
+
+---
+
+## 📦 **requirements.txt**
+
+```text
+pandas
+numpy
+scikit-learn
+imbalanced-learn
+streamlit
