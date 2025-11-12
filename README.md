@@ -56,24 +56,24 @@ loan_default_project/
 ## ⚙️ Setup Instructions
 
 ### 1️⃣ Clone the Repository
-
+```bash
 https://github.com/pmukta/loan_default_project.git
 
-###2️⃣ Create and Activate a Virtual Environment
+2️⃣ Create and Activate a Virtual Environment
 python -m venv venv
 venv\Scripts\activate     # On Windows
 # OR
 source venv/bin/activate  # On Mac/Linux
 
-###3️⃣ Install Dependencies
+3️⃣ Install Dependencies
 pip install -r requirements.txt
 
-###4️⃣ Train the Model (optional)
+4️⃣ Train the Model (optional)
 python save_model.py
 
-###5️⃣ Run the App
+5️⃣ Run the App
 streamlit run app.py
-
+'''
 Open the local URL (e.g. http://localhost:8501) in your browser to use the app.
 
 🧾 Requirements
