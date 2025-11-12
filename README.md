@@ -1,38 +1,12 @@
-# 💰 Loan Default Prediction App
+# 💰 Loan Default Prediction using Machine Learning
 
-![App Preview](app_preview.png)
-*A Machine Learning web app that predicts whether a loan will be repaid or defaulted.*
+[![Python](https://img.shields.io/badge/Python-3.9+-blue.svg)](https://www.python.org/)
+[![Streamlit](https://img.shields.io/badge/Built%20with-Streamlit-FF4B4B.svg)](https://streamlit.io/)
+[![Scikit-learn](https://img.shields.io/badge/ML-Scikit--learn-orange.svg)](https://scikit-learn.org/)
+[![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](https://opensource.org/licenses/MIT)
 
----
-
-## 🚀 Overview
-
-This project uses a **Random Forest Classifier** enhanced with **SMOTE (Synthetic Minority Over-sampling Technique)**  
-to predict whether a borrower is likely to default on a loan.
-
-The app is built with **Streamlit**, providing a simple and interactive user interface  
-for entering loan applicant details and viewing prediction results in real time.
-
----
-
-## 🌟 Features
-
-- 📊 Predicts loan repayment or default
-- ⚖️ Uses **SMOTE** to handle class imbalance
-- 🧠 **Random Forest Classifier** for robust predictions
-- 💬 Confidence percentage displayed with each result
-- 🖥️ User-friendly Streamlit interface
-
----
-
-## 🧠 Model Details
-
-**Algorithm:** Random Forest Classifier  
-**Hyperparameters:**
-- `n_estimators=200`
-- `max_depth=8`
-- `class_weight='balanced'`
-- `random_state=42`
+An **AI-powered FinTech project** that predicts whether a loan will likely be **repaid or defaulted**, built using **Random Forest**, **Streamlit**, and **SMOTE** for class balancing.  
+Designed to demonstrate how traditional banking expertise can merge with data-driven decision-making in the age of AI.
 
 ---
 
@@ -50,6 +24,8 @@ loan_default_project/
 ├── requirements.txt # Python dependencies
 └── README.md # Documentation
 
+yaml
+Copy code
 
 ---
 
@@ -57,34 +33,48 @@ loan_default_project/
 
 ### 1️⃣ Clone the Repository
 ```bash
-https://github.com/pmukta/loan_default_project.git
-
-###2️⃣ Create and Activate a Virtual Environment
-```bash
+git clone https://github.com/pmukta/loan_default_project.git
+cd loan_default_project
+2️⃣ Create & Activate a Virtual Environment
+bash
+Copy code
 python -m venv venv
 venv\Scripts\activate     # On Windows
 # OR
 source venv/bin/activate  # On Mac/Linux
-
-###3️⃣ Install Dependencies
-```bash
+3️⃣ Install Dependencies
+bash
+Copy code
 pip install -r requirements.txt
-
-###4️⃣ Train the Model (optional)
-```bash
+4️⃣ Train the Model (Optional)
+bash
+Copy code
 python save_model.py
-
-###5️⃣ Run the App
-```bash
+5️⃣ Run the Application
+bash
+Copy code
 streamlit run app.py
-
-Open the local URL (e.g. http://localhost:8501) in your browser to use the app.
+Then open the local URL (usually http://localhost:8501) in your browser to use the app.
 
 🧾 Requirements
-See requirements.txt
+All dependencies are listed in requirements.txt, including:
 
+pandas
+
+numpy
+
+scikit-learn
+
+imbalanced-learn
+
+streamlit
+
+Install everything with:
+
+bash
+Copy code
+pip install -r requirements.txt
 📊 Sample Output
-
 Example 1:
 ✅ Loan likely to be repaid
 Confidence: 91.24%
@@ -99,28 +89,46 @@ Accuracy	~0.73
 Precision (Default)	0.27
 Recall (Default)	0.39
 F1-Score (Default)	0.32
+
 🧩 Tech Stack
+🐍 Python 3.9+
 
-Python 3.9+
+📊 Pandas, NumPy
 
-Pandas, NumPy
+🧠 Scikit-learn
+
+⚖️ Imbalanced-learn (SMOTE)
+
+🌐 Streamlit
+
+🚀 Features
+Predicts loan repayment or default using trained Random Forest model
+
+Includes SMOTE oversampling for class balancing
+
+Interactive and user-friendly Streamlit interface
+
+Confidence scores for each prediction
+
+Ready to deploy or enhance with new data
+
+👩‍💻 Author
+Mukta Seerapu
+💼 17 years of experience in Banking | 🎯 Transitioning to AI & Data Science
+
+📧 Email: pmukta@gmail.com
+🔗 LinkedIn Profile
+
+🪪 License
+Licensed under the MIT License — you’re free to use, modify, and share this project with attribution.
+
+⭐ Acknowledgements
+Special thanks to the open-source community behind:
+
+Streamlit
 
 Scikit-learn
 
 Imbalanced-learn
 
-Streamlit
-
-👨‍💻 Author
-
-Mukta Seerapu
-💼 17 years in Banking | 🎯 Transitioning to AI & Data Science
-📧 [email: pmukta@gmail.com ]
-📧 [LinkedIn Profile](www.linkedin.com/in/mukta-puvvula-94861819b)
-
-
-🪪 License
-
-Licensed under the MIT License – you’re free to use and modify this project with credit.
-
-
+If you found this project useful, consider ⭐ starring the repository on GitHub!
