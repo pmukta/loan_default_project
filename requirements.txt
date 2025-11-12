@@ -1,10 +1,14 @@
+# Core libraries
+pandas==2.2.2
+numpy==1.26.4
 
+# Machine learning
+scikit-learn==1.5.1
+imbalanced-learn==0.12.3
 
+# Web app framework
+streamlit==1.38.0
 
-## 📦 **requirements.txt**
-
-pandas
-numpy
-scikit-learn
-imbalanced-learn
-streamlit
+# Utilities
+joblib==1.4.2
+matplotlib==3.9.2
