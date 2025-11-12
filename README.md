@@ -34,15 +34,16 @@ Copy code
 
 Then open the local URL (e.g. http://localhost:8501) in your browser to use the app.
 
+Then open the local URL (e.g. http://localhost:8501
+) in your browser to use the app.
+
 📊 Sample Output
 
 Example 1:
-
 ✅ Loan likely to be repaid
 Confidence: 91.24%
 
 Example 2:
-
 ⚠️ Loan likely to default
 Confidence: 78.56%
 
@@ -60,19 +61,22 @@ Pandas, NumPy
 
 Scikit-learn
 
-Imbalanced-learn
+Imbalanced-learn (SMOTE)
 
 Streamlit
 
-👨‍💻 Author
+👩‍💻 Author
 
 Mukta Seerapu
-💼 17 years in Banking | 🎯 Transitioning to AI & Data Science
-📧 pmukta@gmail.com
+💼 17 years of experience in Banking | 🎯 Transitioning to AI & Data Science
 
-🔗 LinkedIn Profile www.linkedin.com/in/mukta-puvvula-94861819b
+📧 Email: pmukta@gmail.com
 
-🪪 License
+🔗 LinkedIn Profile: www.linkedin.com/in/mukta-puvvula-94861819b
+
+🪪 License 
+
+Licensed under the MIT License — you’re free to use and modify this project with credit.
 
 Licensed under the MIT License — you’re free to use and modify this project with credit.
 
